@@ -7,52 +7,52 @@
   "reportUnusedDisableDirectives": true,
   "rules": {
     "quotes": [
-      "error",
+      "warn",
       "single"
     ],
     "jsx-quotes": [
-      "error",
+      "warn",
       "prefer-double"
     ],
     "semi": [
-      "error",
+      "warn",
       "never"
     ],
     "jest/no-mocks-import": "off",
-    "no-var": "error",
-    "prefer-const": "error",
-    "no-param-reassign": "error",
-    "prefer-spread": "error",
+    "no-var": "warn",
+    "prefer-const": "warn",
+    "no-param-reassign": "warn",
+    "prefer-spread": "warn",
     "complexity": [
-      "error",
+      "warn",
       7
     ],
-    "camelcase": "error",
-    "sort-imports": ["error", {
+    "camelcase": "warn",
+    "sort-imports": ["warn", {
       "ignoreDeclarationSort": true,
       "memberSyntaxSortOrder": ["all", "multiple", "single", "none"]
     }],
     "no-shadow": "off",
-    "@typescript-eslint/no-shadow": ["error"],
-    "eqeqeq": "error",
-    "no-bitwise": "error",
-    "no-constant-condition": "error",
-    "no-multiple-empty-lines": "error",
-    "indent": ["error", 2, {"SwitchCase": 1}],
-    "react/self-closing-comp": ["error", {
+    "@typescript-eslint/no-shadow": ["warn"],
+    "eqeqeq": "warn",
+    "no-bitwise": "warn",
+    "no-constant-condition": "warn",
+    "no-multiple-empty-lines": "warn",
+    "indent": ["warn", 2, {"SwitchCase": 1}],
+    "react/self-closing-comp": ["warn", {
       "component": true,
       "html": true
     }],
-    "react/jsx-key": "error",
-    "react/jsx-tag-spacing": ["error", {"beforeSelfClosing": "never"}],
-    "react/jsx-max-props-per-line": ["error", {"when": "multiline"}],
-    "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
+    "react/jsx-key": "warn",
+    "react/jsx-tag-spacing": ["warn", {"beforeSelfClosing": "never"}],
+    "react/jsx-max-props-per-line": ["warn", {"when": "multiline"}],
+    "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"],
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
-    "arrow-body-style": ["error", "as-needed"],
-    "unused-imports/no-unused-imports": "error",
-    "object-curly-spacing": "error",
-    "array-bracket-spacing": "error",
-    "react-hooks/exhaustive-deps": "error",
+    "arrow-body-style": ["warn", "as-needed"],
+    "unused-imports/no-unused-imports": "warn",
+    "object-curly-spacing": "warn",
+    "array-bracket-spacing": "warn",
+    "react-hooks/exhaustive-deps": "warn",
   }
 }
