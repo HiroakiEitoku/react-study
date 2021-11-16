@@ -7,7 +7,7 @@ import {App} from './App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App name="Hiroaki Eitoku"/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 )
