@@ -1,3 +1,3 @@
-import {Counter} from './components/Counter'
+import {TodoList} from './feature/TodoList'
 
-export const App = () => (<Counter/>)
+export const App = () => (<TodoList/>)
